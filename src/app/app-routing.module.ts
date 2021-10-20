@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { NavigationStart, RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './components/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
 
 const routes: Routes = [
-  {path:'', component: NavComponent },
-  {path:'', component: AppComponent}
+ 
+  {
+    path: '', component: NavComponent,  children: [
+      { path: 'home', component: HomeComponent },
+    ]}
+    
 ];
 
 @NgModule({
@@ -13,3 +18,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+

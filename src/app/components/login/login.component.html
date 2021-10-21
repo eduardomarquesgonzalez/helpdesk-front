@@ -25,9 +25,8 @@
             name="senha"
             type="password"
             matInput
-            placeholder="ex. %Senha1">
+            placeholder="ex. 123">
           </mat-form-field>
-          <button [disabled] = "!validaCampos()" class="full-width mat-elevation-z4" mat-stroked-button color="primary">Login</button>
-          <!--{{creds.email}}-->
+          <button (click)="logar()" [disabled] = "!validaCampos()" class="full-width mat-elevation-z4" mat-stroked-button color="primary">Login</button>
       </form>
 </div>

@@ -22,3 +22,13 @@ h1{
     margin-bottom: 2rem;
 }
 
+.edit{
+    color:rgb(107, 174, 236);
+    
+}
+
+.delete{
+    color:rgb(212, 21, 47);
+}
+
+

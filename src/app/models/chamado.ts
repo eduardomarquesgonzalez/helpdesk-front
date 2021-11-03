@@ -1,4 +1,5 @@
 export interface Chamado{
+    push(element: Chamado);
 
     id?:             any;
     dataAbertura?:   string;

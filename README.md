@@ -27,3 +27,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## versao do angular instalada  12.0.3
+
+## gerar um serviço  exemplo:
+### ng g s services/chamado
+      //adiciona uma instancia para teste de dados mockados
+      /*
+    {
+      id:                             1,
+      dataAbertura:        '03/11/2021',
+      dataFechamento:       '03/11/202',
+      prioridade:                'ALTA',
+      status:               'ANDAMENTO',
+      titulo:                'Chamado1',
+      observacoes:     'Teste chamado1',
+      tecnico:                        1,
+      cliente:                        6,
+      nomeCliente:   'Eduardo Gonzalez',
+      nomeTecnico:    'Albert Einstein'
+  }
+  */

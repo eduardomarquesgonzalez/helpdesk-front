@@ -1,7 +1,5 @@
-export interface Chamado{
-    push(element: Chamado);
-
-    id?:             any;
+export interface Chamado {
+    id?:                any;
     dataAbertura?:   string;
     dataFechamento?: string;
     prioridade:      string;
@@ -10,7 +8,7 @@ export interface Chamado{
     observacoes:     string;
     tecnico:            any;
     cliente:            any;
-    nomeTecnico:     string;
     nomeCliente:     string;
-
-}
+    nomeTecnico:     string;
+ 
+ }
